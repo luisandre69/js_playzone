@@ -24,4 +24,27 @@ function advsum(a,b)
 }
 
 //call a sum function with values
-advsum(5,10);
+//advsum(5,10);
+
+//to return sum value
+function retsum(a,b)
+{
+    var c = a+b
+    return c
+}
+
+//to multiply the values
+function mul(a,b)
+{
+    var c = a*b
+    console.log(c)
+}
+
+//is necessary to calculate (100+200)*30
+
+//z saves the sum necessary after for the multiplication
+//z=retsum(100,200)
+//mul(z,30)
+
+//execute in 1 single line without defining more variables
+mul(retsum(100,200),30)
